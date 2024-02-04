@@ -1,10 +1,11 @@
 {
-  "name": "udemy_curso_de_javascript_e_typescript_do_basico_ao_avancado_secao_18",
+  "name": "udemy_curso_de_javascript_e_typescript_do_basico_ao_avancado_secao_19",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack -w"
   },
   "keywords": [],
   "author": "Leonardo <leonardojosantos@gmail.com>",
@@ -17,6 +18,9 @@
     "eslint-plugin-prettier": "^3.4.1",
     "prettier": "^2.8.8",
     "ts-node": "^8.10.2",
-    "typescript": "^3.9.5"
+    "typescript": "^3.9.5",
+    "ts-loader": "^8.0.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
   }
 }
